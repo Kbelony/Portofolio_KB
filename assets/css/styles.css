@@ -375,6 +375,7 @@ img{
 .about__info{
     display: flex;
     justify-content: space-evenly;
+    margin-top: var(--mb-1-5);
     margin-bottom: var(--mb-2-5);
 }
 .about__info-title{
@@ -585,8 +586,8 @@ img{
     padding: 0 1.5rem;
 }
 .portofolio__img{
-    width: 395px;
-    border-radius: .5rem;
+    width: 895px;
+    border-radius: .2rem;
     justify-self: center;
 }
 .portofolio__title{
@@ -771,6 +772,7 @@ img{
     }
     .home__data{
         grid-column: initial;
+        margin-left: 28px;
     }
     .home__img{
         justify-self: center;
@@ -838,6 +840,7 @@ img{
     }
     .home__scroll{
         display: block;
+        margin-bottom: 20px;
     }
     .home__scroll-button{
         margin-left: 3rem;
