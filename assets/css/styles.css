@@ -393,7 +393,7 @@ img{
 .about__buttons{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 3;
 }
 .about-section{
     margin-bottom: 30px;
@@ -773,7 +773,6 @@ img{
         grid-column: initial;
     }
     .home__img{
-        order: 1;
         justify-self: center;
     }
     .contact__container,
