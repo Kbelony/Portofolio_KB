@@ -308,6 +308,10 @@ img{
 .home__description{
     margin-bottom: var(--mb-2);
 }
+.home__description a:link{
+    text-decoration: none;
+    color: red;
+}
 .home__scroll{
     /* display: none; */
 }
