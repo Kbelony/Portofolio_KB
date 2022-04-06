@@ -431,6 +431,7 @@ img{
 .skills__arrows{
     margin-left: auto;
     transition: .4s;
+    color: black;
 }
 .skills__titles{
     display: flex;
@@ -451,6 +452,7 @@ img{
 }
 .skills__open .skills__arrows{
     transform: rotate(-180deg);
+    color: black;
 }
 
 /*==================== QUALIFICATION ====================*/
