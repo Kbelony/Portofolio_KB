@@ -431,7 +431,7 @@ img{
 .skills__arrows{
     margin-left: auto;
     transition: .4s;
-    color: black;
+    color: var(--first-color);
 }
 .skills__titles{
     display: flex;
@@ -452,7 +452,8 @@ img{
 }
 .skills__open .skills__arrows{
     transform: rotate(-180deg);
-    color: black;
+    color: var(--first-color);
+
 }
 
 /*==================== QUALIFICATION ====================*/
@@ -501,12 +502,12 @@ img{
 /*==================== SERVICES ====================*/
 .services__container{
     gap: 1.5rem;
-    grid-template-columns: repeat(2.5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 .services__content{
     position:relative;
     background-color: var(--container-color);
-    padding: 3.5rem .5rem 1.25rem;
+    padding: 3.5rem .5rem 1.25rem 1.5rem;
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
     transition: .3s;
